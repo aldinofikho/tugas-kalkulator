@@ -44,10 +44,10 @@ namespace CalculatorConsoleApp
             Console.WriteLine(" 	     Masukan Pilihan		");
             Console.WriteLine(" ========================================");
             Console.WriteLine(" 					");
-            Console.WriteLine(" (A) Penambahan  	");
-            Console.WriteLine(" (B) Pengurangan		");
-            Console.WriteLine(" (C) Perkalian		");
-            Console.WriteLine(" (D) Pembagian 		");
+            Console.WriteLine(" (1) Penambahan  	");
+            Console.WriteLine(" (2) Pengurangan		");
+            Console.WriteLine(" (3) Perkalian		");
+            Console.WriteLine(" (4) Pembagian 		");
             Console.WriteLine(" 					");
             Console.WriteLine(" ========================================");
             Console.Write(" Masukan Pilihan : ");
@@ -56,7 +56,7 @@ namespace CalculatorConsoleApp
 
             Console.WriteLine();
 
-            if (pilihan == 'A') {
+            if (pilihan == '1') {
                 Console.Write(" Inputkan Nilai a = ");
                 int a = int.Parse(Console.ReadLine());
 
@@ -70,7 +70,7 @@ namespace CalculatorConsoleApp
             }
            
 
-            else if (pilihan == 'B') {
+            else if (pilihan == '2') {
                 Console.Write("Inputkan Nilai a = ");
                 int a = int.Parse(Console.ReadLine());
 
@@ -84,7 +84,7 @@ namespace CalculatorConsoleApp
 
             }
 
-            else if (pilihan == 'C') {
+            else if (pilihan == '3') {
                 Console.Write("Inputkan Nilai a = ");
                 int a = int.Parse(Console.ReadLine()); 
 
@@ -97,7 +97,7 @@ namespace CalculatorConsoleApp
                 goto beranda;
             }
 
-            else if (pilihan == 'D') {
+            else if (pilihan == '4') {
                 Console.Write("Inputkan Nilai a = ");
                 int a = int.Parse(Console.ReadLine()); 
 
